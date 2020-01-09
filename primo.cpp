@@ -10,4 +10,10 @@ int numero;
 int i;
 void *primo(void*);
 int contador=0;
+void hilo(){
+	std::ofstream outfile("cristopher.txt");
+	outfile<<"Adios Mundo Cruel"<< std::endl <<"hola"<<std::endl;
+	outfile<<":'v"<< std::endl;
+	outfile.close();
+}
 
