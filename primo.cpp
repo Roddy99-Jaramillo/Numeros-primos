@@ -17,3 +17,11 @@ void hilo(){
 	outfile.close();
 }
 
+void *primo(void *tid)
+{
+	
+	printf( "Introduzca el numero" );
+printf("\n");
+scanf( "%d", &numero);
+	printf("\n");
+}
