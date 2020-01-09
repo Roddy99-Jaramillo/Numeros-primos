@@ -25,3 +25,18 @@ printf("\n");
 scanf( "%d", &numero);
 	printf("\n");
 }
+int main(){	
+	int a = 1;
+pthread_t pthread_primo;
+pthread_create (&pthread_primo, NULL, primo, (void *)i); pthread_join(pthread_primo, NULL);
+for(i=numero; i>0; i--)
+{
+if(numero%i==0)
+contador++;
+}
+if(contador==2)
+printf("El numero es primo");
+std::thread prueba(hilo);
+prueba.join();
+getch();
+}
